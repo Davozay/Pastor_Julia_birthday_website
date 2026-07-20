@@ -389,6 +389,7 @@ h3 {
 
 .hero-eyebrow {
     margin-bottom: 22px;
+    color: var(--cocoa);
 }
 
 .title-line {
@@ -1103,4 +1104,27 @@ body.night #family svg rect[fill="url(#skyGrad)"] {
         animation-iteration-count: 1 !important;
         transition-duration: 0.001ms !important;
     }
+}
+
+@media  (min-width:315px) and (max-width: 667px){
+    h1.hero-title {
+    font-size: clamp(1.6rem, 9vw, 0rem);
+    /* line-height: 0.98; */
+    /* color: var(--cloud); */
+    /* text-shadow: 0 0 60px rgba(212, 175, 55, 0.4); */
+}
+    
+}
+@media  (min-width:815px) and (max-width: 1500px){
+    /* h1.hero-title {
+    font-size: clamp(1.6rem, 9vw, 0rem); */
+    /* line-height: 0.98; */
+    /* color: var(--cloud); */
+    /* text-shadow: 0 0 60px rgba(212, 175, 55, 0.4); */
+/* } */
+.hero-eyebrow {
+    margin-bottom: 22px;
+    color: var(--cocoa-2);
+}
+    
 }
